@@ -1,5 +1,5 @@
 # Class to manage the NTP package, file and service.
-class ntp($server="pool.ntp.org") {
+class ntp($servers="pool.ntp.org") {
 
   package { "ntp":
     ensure => present,
