@@ -6,6 +6,9 @@ node "www.puppetlabs.com" {
 }
 
 node default {
-  notify { "hello world": }
+
+  # Classify this node as a member of the motd class
+  class { "motd": }
+
 }
 
