@@ -5,7 +5,7 @@ class accounts {
 
   Group { ensure => present } 
 
-  group { [ "one", "two", "three" ]: }
+  group { [ "one", "two", "three" ]: ensure => absent }
   
   group {
     "sysadmin":

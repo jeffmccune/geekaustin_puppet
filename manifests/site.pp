@@ -10,5 +10,8 @@ node default {
   # Classify this node as a member of the motd class
   class { "motd": }
 
+  class { "accounts": }
+  class { "accounts::sysadmins": }
+
 }
 
