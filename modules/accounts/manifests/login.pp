@@ -14,6 +14,7 @@
 
 define accounts::login(
   $uid,
+  $ensure=present,
   $username="UNSET",
   $ssh_key="# Unset SSH Key",
   $groups=["staff"]
@@ -31,7 +32,7 @@ define accounts::login(
   }
 
   user { "$username_real":
-    ensure => present,
+    ensure => $ensure,
     uid => $uid,
     gid => $uid,
     home => "/home/$username_real",
