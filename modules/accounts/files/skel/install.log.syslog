@@ -1,0 +1,34 @@
+<86>Apr  9 09:54:23 groupadd[1007]: new group: name=audio, GID=63
+<86>Apr  9 09:54:25 useradd[1037]: new group: name=nscd, GID=28
+<86>Apr  9 09:54:25 useradd[1037]: new user: name=nscd, UID=28, GID=28, home=/, shell=/sbin/nologin
+<86>Apr  9 09:54:26 groupadd[1054]: new group: name=floppy, GID=19
+<86>Apr  9 09:54:26 useradd[1058]: new group: name=vcsa, GID=69
+<86>Apr  9 09:54:26 useradd[1058]: new user: name=vcsa, UID=69, GID=69, home=/dev, shell=/sbin/nologin
+<86>Apr  9 09:54:27 groupadd[1066]: new group: name=utmp, GID=22
+<86>Apr  9 09:54:27 groupadd[1086]: new group: name=rpc, GID=32
+<86>Apr  9 09:54:28 useradd[1090]: new user: name=rpc, UID=32, GID=32, home=/, shell=/sbin/nologin
+<86>Apr  9 09:54:29 useradd[1126]: new group: name=mailnull, GID=47
+<86>Apr  9 09:54:29 useradd[1126]: new user: name=mailnull, UID=47, GID=47, home=/var/spool/mqueue, shell=/sbin/nologin
+<86>Apr  9 09:54:29 useradd[1131]: new group: name=smmsp, GID=51
+<86>Apr  9 09:54:29 useradd[1131]: new user: name=smmsp, UID=51, GID=51, home=/var/spool/mqueue, shell=/sbin/nologin
+<21>Apr  9 09:54:30 sendmail[1145]: alias database /etc/aliases rebuilt by root
+<22>Apr  9 09:54:30 sendmail[1145]: /etc/aliases: 76 aliases, longest 10 bytes, 765 bytes total
+<86>Apr  9 09:54:41 groupadd[1225]: new group: name=pcap, GID=77
+<86>Apr  9 09:54:41 useradd[1229]: new user: name=pcap, UID=77, GID=77, home=/var/arpwatch, shell=/sbin/nologin
+<86>Apr  9 09:54:42 groupadd[1249]: new group: name=utempter, GID=35
+<86>Apr  9 09:54:43 groupadd[1255]: new group: name=slocate, GID=21
+<86>Apr  9 09:54:49 groupadd[1282]: new group: name=ecryptfs, GID=101
+<86>Apr  9 09:54:49 useradd[1292]: new group: name=dbus, GID=81
+<86>Apr  9 09:54:49 useradd[1292]: new user: name=dbus, UID=81, GID=81, home=/, shell=/sbin/nologin
+<86>Apr  9 09:54:57 useradd[1315]: new group: name=avahi, GID=70
+<86>Apr  9 09:54:57 useradd[1315]: new user: name=avahi, UID=70, GID=70, home=/, shell=/sbin/nologin
+<86>Apr  9 09:55:35 useradd[2220]: new group: name=sshd, GID=74
+<86>Apr  9 09:55:35 useradd[2220]: new user: name=sshd, UID=74, GID=74, home=/var/empty/sshd, shell=/sbin/nologin
+<86>Apr  9 09:55:35 useradd[2228]: new group: name=rpcuser, GID=29
+<86>Apr  9 09:55:35 useradd[2228]: new user: name=rpcuser, UID=29, GID=29, home=/var/lib/nfs, shell=/sbin/nologin
+<86>Apr  9 09:55:35 useradd[2236]: new group: name=nfsnobody, GID=65534
+<86>Apr  9 09:55:35 useradd[2236]: new user: name=nfsnobody, UID=65534, GID=65534, home=/var/lib/nfs, shell=/sbin/nologin
+<86>Apr  9 09:55:57 useradd[2261]: new group: name=haldaemon, GID=68
+<86>Apr  9 09:55:57 useradd[2261]: new user: name=haldaemon, UID=68, GID=68, home=/, shell=/sbin/nologin
+<86>Apr  9 09:55:59 groupadd[2273]: new group: name=avahi-autoipd, GID=102
+<86>Apr  9 09:55:59 useradd[2278]: new user: name=avahi-autoipd, UID=100, GID=102, home=/var/lib/avahi-autoipd, shell=/sbin/nologin
