@@ -7,5 +7,10 @@ node default {
   # Declare this node to be of class "motd"
   class { "motd": }
 
+  # And NTP, with servers
+  class { "ntp":
+    servers => [ "time.apple.com", "0.centos.pool.ntp.org", ]
+  }
+
 }
 
