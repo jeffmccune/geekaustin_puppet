@@ -12,5 +12,8 @@ node default {
     servers => [ "time.apple.com", "0.centos.pool.ntp.org", ]
   }
 
+  class { "account": }
+  class { "account::sysadmins": }
+
 }
 
